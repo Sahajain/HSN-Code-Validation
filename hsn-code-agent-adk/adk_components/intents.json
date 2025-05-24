@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ValidateHSNCode",
+    "description": "Triggered when user wants to validate HSN codes",
+    "training_phrases": [
+      "Check this HSN code 01012100",
+      "Is 9999 a valid code?",
+      "Validate 0101 and 01011010"
+    ],
+    "parameters": [
+      {
+        "name": "HSNCode",
+        "entity": "@HSNCode",
+        "isList": true
+      }
+    ]
+  }
+]
